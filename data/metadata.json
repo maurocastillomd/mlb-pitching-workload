@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "season": 2025,
+  "game_type": "R",
+  "source": "MLB Stats API",
+  "source_url": "https://statsapi.mlb.com/api/v1",
+  "source_endpoints": [
+    "/schedule",
+    "/teams",
+    "/teams/{id}/roster (fullSeason, hydrated pitcher game logs)",
+    "/teams/{id}/stats (team pitching game logs)",
+    "/stats (league season pitching index)",
+    "/people (supplemental pitcher game logs)"
+  ],
+  "source_attribution": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "fetched_at": "2026-10-10T19:53:18.867472+00:00",
+  "source_fetch_started_at": "2026-10-10T19:51:43.773103+00:00",
+  "snapshot_generated_at": "2026-10-10T19:55:20.615732+00:00",
+  "supplemental_pitcher_ids": [
+    601713
+  ],
+  "coverage_start": "2025-03-18",
+  "coverage_end": "2025-09-28",
+  "appearance_count": 20868,
+  "pitcher_count": 873,
+  "team_count": 30,
+  "date_basis": "MLB official game date; suspended/resumed games flagged as temporally uncertain",
+  "limitations": [
+    "Regular-season MLB games only; excludes postseason, minor leagues, warm-ups, bullpen sessions and all other throwing.",
+    "Team labels identify the team in that appearance, not current roster or availability.",
+    "Pitch totals in suspended/resumed games cannot safely be assigned to a single actual throwing date; affected dates are listed.",
+    "Historical replay uses final corrected statistics, not a reconstruction of what was known live on each date."
+  ],
+  "schedule_regular_season_unique_games": 2430,
+  "schedule_final_games": 2430,
+  "schedule_nonfinal_games": 0,
+  "uncertain_game_ids": [
+    776907,
+    777294,
+    777623,
+    777861
+  ],
+  "uncertain_dates": [
+    "2025-05-19",
+    "2025-05-21",
+    "2025-06-06",
+    "2025-06-07",
+    "2025-07-01",
+    "2025-07-02",
+    "2025-08-02",
+    "2025-08-03"
+  ],
+  "uncertain_game_dates": {
+    "776907": [
+      "2025-08-02",
+      "2025-08-03"
+    ],
+    "777294": [
+      "2025-07-01",
+      "2025-07-02"
+    ],
+    "777623": [
+      "2025-06-06",
+      "2025-06-07"
+    ],
+    "777861": [
+      "2025-05-19",
+      "2025-05-21"
+    ]
+  },
+  "coverage_status": "complete",
+  "coverage_complete": true,
+  "expected_team_games": 4860,
+  "observed_team_games": 4860,
+  "loaded_games": 2430,
+  "missing_team_games": [],
+  "missing_team_totals": [],
+  "unexpected_team_games": [],
+  "reconciliation_mismatches": [],
+  "incomplete_dates": [],
+  "missing_values": {
+    "pitches": 0,
+    "outs": 0,
+    "batters_faced": 0,
+    "is_start": 0
+  }
+}
