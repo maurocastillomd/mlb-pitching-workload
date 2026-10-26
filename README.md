@@ -1,5 +1,7 @@
 # MLB Pitching Workload
 
+**Live app: https://mlb-pitching-workload.streamlit.app**
+
 A public-data historical demo for reviewing recorded MLB pitching exposure: who pitched, how much, and when. Built by Mauro Castillo, MD, MS, CSCS, RSCC, CPSS.
 
 ![Dashboard](docs/dashboard.jpg)
